@@ -1,0 +1,40 @@
+{
+	"data" : {
+		"questions" : [
+			"Who are you?",
+			"What is the weather?",
+			"Where are my shoes?",
+			"What is Apple's stock price",
+			"Can you remind me to buy apples?",
+			"What temperature is it?",
+			"Where am I?",
+			"Start",
+			"Open",
+			"What time is it?"
+		],
+		"responses" : {
+			"Who are you?": "I'm Chad. What's your name?",
+			"What is the weather?": "I don't know, look it up",
+			"Where are my shoes?": "Probably in your room.",
+			"What is Apple's stock price": "You have Google. Look it up",
+			"Can you remind me to buy apples?": "Sure",
+			"What time is it?": "!Time",
+			"Where am I?": "!Here",
+			"What temperature is it?": "I have no idea",
+			"Start": "!Done",
+			"Open": "!Done"
+		},
+		"keywords" : [
+			"time",
+			"start",
+			"open",
+			"remind me"
+		],
+		"redirects" : {
+			"time" : "What time is it?",
+			"start" : "Start",
+			"open" : "Open",
+			"remind me" : "Can you remind me to buy apples?"
+		}
+	}
+}
